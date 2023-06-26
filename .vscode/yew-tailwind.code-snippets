@@ -1,0 +1,131 @@
+{
+    //
+    //
+    // p
+    // 
+    "Yew - Tailwindcss - P": {
+      "prefix": "ywp",
+      "body": [
+        "<p class={classes!(\"font-sans\", \"font-medium\", \"text-base\")}>",
+        "    {\"ya\"}",
+        "</p>"
+      ],
+      "description": ""
+    },
+    //
+    //
+    // row
+    // 
+    "Yew - Tailwindcss - Flex Row": {
+        "prefix": "ywfr",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-row\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Row Center": {
+        "prefix": "ywfrc",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-row\", \"justify-center\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Row Center Center": {
+        "prefix": "ywfrcc",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-row\", \"justify-center\", \"items-center\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Row Full": {
+        "prefix": "ywfr1",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-row\", \"w-full\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Row Full Center": {
+        "prefix": "ywfr1c",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-row\", \"w-full\", \"justify-center\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Row Full Center Center": {
+        "prefix": "ywfr1cc",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-row\", \"w-full\", \"justify-center\", \"items-center\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      //
+      //
+      // column
+      // 
+      "Yew - Tailwindcss - Flex Column": {
+        "prefix": "ywfc",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-col\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Column Center": {
+        "prefix": "ywfcc",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-col\", \"justify-center\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Column Center Center": {
+        "prefix": "ywfccc",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-col\", \"justify-center\", \"items-center\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Column Full": {
+        "prefix": "ywfc1",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-col\", \"w-full\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Column Full Center": {
+        "prefix": "ywfc1c",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-col\", \"w-full\", \"justify-center\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      },
+      "Yew - Tailwindcss - Flex Column Full Center Center": {
+        "prefix": "ywfc1cc",
+        "body": [
+          "<div class={classes!(\"flex\", \"flex-col\", \"w-full\", \"justify-center\", \"items-center\")}>",
+          "    ${1}",
+          "</div>"
+        ],
+        "description": ""
+      }
+}

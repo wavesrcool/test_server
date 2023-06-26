@@ -1,0 +1,34 @@
+{
+    "rs - use all": {
+        "prefix": "rsua",
+        "body": [
+          "pub mod ${1};",
+          "pub use ${1}::*;"
+        ],
+        "description": ""
+      },
+
+      "rs - println": {
+        "prefix": "rspr",
+        "body": [
+          "println!(\"{:?}\", ${1});"
+        ],
+        "description": ""
+      },
+
+      "rs - println long": {
+        "prefix": "rspl",
+        "body": [
+          "println!(\"${1} {:?}\", ${1});"
+        ],
+        "description": ""
+      },
+
+      "rs - info long": {
+        "prefix": "rsil",
+        "body": [
+          "log::info!(\"${1} {:?}\", ${1});"
+        ],
+        "description": ""
+      }
+}
